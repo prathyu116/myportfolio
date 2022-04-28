@@ -1,0 +1,118 @@
+.project-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.project-card {
+  width: 400px;
+  min-height: 350px;
+  background: rgba( 23, 33, 62, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.modal-body-img {
+  width: 100%;
+  height: 50%;
+}
+
+
+.image-container {
+  width: 100%;
+    border-radius: 10px;
+
+}
+.project-link {
+  border-radius: 20px 20px 0 0;
+}
+.project-image {
+  display: block;
+  border-radius: inherit;
+  max-width: 100%;
+  max-height: 70%;
+  /* background-size: 100%; */
+  object-fit: contain;
+}
+.project-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+}
+.techStack {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.techStack img {
+  width: 25px;
+}
+.btn-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.project-url2 {
+}
+.ic {
+  font-size: 20px;
+}
+.project-name {
+    color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.project-details {
+  font-weight: 300px;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+}
+.skillT {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  box-shadow: #a4879a66 -5px 5px, #a4879a66 -10px 10px;
+}
+.techStack2 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.techStack2 img {
+  width: 25px;
+}
+
+.readmoreli {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.readmoreli h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
