@@ -1,28 +1,27 @@
 import Project1 from './proj1.PNG'
 import Project2 from './proj2.PNG'
 import port from './port.jpg'
-import Project3 from './netflix.jpg'
+import Project3 from './netflix.gif'
 import Project4 from './task.jpg'
 import Project5 from './brba.jpg'
 import Project6 from './shopp.jpg'
 import olx from './olx.jpg'
 import todo from './todo.jpg'
 import book from './book.jpg'
-import zomoto from './proj1.gif'
+import straw from './proj1.gif'
 import jstech from "./jstec1.png"
 import css from "./cssT.png"
 import html from "./htmlT.png"
-
+import react from "./react.png"
+import sudoku from "./sudokku.gif"
+import bookmyshaw from "./bookmyshaw.gif"
+import tailwind from './Tailwind_CSS_Logo.svg.png'
+import TYPE from "./type.gif"
+import mongo from "./mongo.png"
+import express from "./node.png"
+import brba from "./brba.gif"
 
 export const projectsData = [
-  //   {
-  //     projectName: "Zomato frontend-clone",
-  //     projectDescription: "This is a simple front-end of zomoto projects using HTML CSS JAVASCRIPT!",
-  //     imageUrl: zomoto,
-
-  //     projectUrl: "https://zomato-landin-page.vercel.app/#",
-  //     gitHubUrl: "https://github.com/prathyu116/Zomato_landin_page",
-  //   },
   //   {
   //     projectName: "Name It!",
   //     projectDescription: "This  name suggestion application help you find the best name for your next project,venture,or startup.!",
@@ -32,9 +31,24 @@ export const projectsData = [
   //     gitHubUrl: "https://github.com/prathyu116/Shopping-Cart",
   //   },
   {
+    projectName: "Netflix Clone",
+    projectDescription: "This Netflix clone App build using React with TMDB API. Super cool!",
+    imageUrl: Project3,
+    projectUrl: "https://react-netflix-clone--55.herokuapp.com/",
+    gitHubUrl: "https://github.com/prathyu116/React-Netflix-Clone",
+    features: [
+      "The data is coming from TMDB API",
+      "user can view trending,comedy,action,romantic,movies and netflix originals",
+      "user can able to play trailer of the movie",
+      "A solo project completed with in 2 days.",
+      "responsive ui",
+    ],
+    techSTack: [html, jstech, react],
+  },
+  {
     projectName: "Sudoku Game",
-    projectDescription: "An Sudokku Game application built with HTML CSS JS by aplying backtracking method",
-    imageUrl: zomoto,
+    projectDescription: "An Sudokku Game application built with HTML CSS JS by aplying recursion+backtracking method",
+    imageUrl: sudoku,
     projectUrl: "https://idyllic-sunshine-c7a72f.netlify.app/",
     gitHubUrl: "https://github.com/prathyu116/sudokkuSolver",
     features: [
@@ -47,46 +61,72 @@ export const projectsData = [
     techSTack: [html, css, jstech],
   },
   {
-    projectName: "Sudoku Game",
-    projectDescription: "An Sudokku Game application built with HTML CSS JS by aplying backtracking method",
-    imageUrl: zomoto,
-    projectUrl: "https://idyllic-sunshine-c7a72f.netlify.app/",
-    gitHubUrl: "https://github.com/prathyu116/sudokkuSolver",
+    projectName: "Flashtype-app",
+    projectDescription: "This typing speed test application test your typing speed                    ",
+    imageUrl: TYPE,
+
+    projectUrl: "https://prathyu116.github.io/react-Flash-Type/",
+    gitHubUrl: "https://github.com/prathyu116/react-Flash-Type",
     features: [
-      "Allows users to solve a puzzle",
-      "user can login",
-      "game resume and pause option",
-      "error detecting while playing",
-      "responsive ui",
+      "This project build using Reactjs and Tailwind CSS",
+      "There is Home page,movie page,category page",
+      "Razorpay integration",
+      "responsive layout",
+      "A solo project completed with in 5 days.",
     ],
-    techSTack: [html, css, jstech],
+    techSTack: [html, css, react],
   },
-  // {
-  //     projectName: 'FlashType',
-  //     projectDescription:'This typing speed test application test your typing speed                    ',
-  //     imageUrl: Project2,
+  {
+    projectName: "Bookmyshaw Clone",
+    projectDescription: "This is an simple clone of bookmyshaw website build using REACT JS and TAILWIND CSS , with Razorpay integration",
+    imageUrl: bookmyshaw,
 
-  //     projectUrl: 'https://prathyu116.github.io/react-Flash-Type/',
-  //     gitHubUrl: 'https://github.com/prathyu116/react-Flash-Type',
-  // },
-  // {
-  //     projectName: 'Netflix-Clone',
-  //     projectDescription:
-  //         'This Netflix clone App build using React with TMDB API. Super cool!',
-  //     imageUrl: Project3,
+    projectUrl: "",
+    gitHubUrl: "https://github.com/prathyu116/book-my-show-frontEnd",
+    features: [
+      "This project build using Reactjs and Tailwind CSS",
+      "This is a react multipage application.",
+      "There is Home page,movie page,category page",
+      "Razorpay integration",
+      "responsive layout",
+      "A solo project completed with in 5 days.",
+    ],
+    techSTack: [html, css, tailwind, react],
+  },
 
-  //     projectUrl: 'https://react-netflix-clone--55.herokuapp.com/',
-  //     gitHubUrl: 'https://github.com/prathyu116/React-Netflix-Clone',
-  // },
-  // {
-  //     projectName: 'Breaking-Bad-Cast',
-  //     projectDescription:
-  //         'This is simple react project to show the Breaking Bad TV show Characters ',
-  //     imageUrl: Project5,
+  {
+    projectName: "Created clone of strawberrynet.com website ",
+    projectDescription: "Which is a cosemetic item selling website build using HTML CSS JS NODEJS EXPRESS",
+    imageUrl: straw,
 
-  //     projectUrl: 'https://breaking--bad--characters.herokuapp.com/',
-  //     gitHubUrl: 'https://github.com/prathyu116/Breaking_Bad_cast',
-  // },
+    projectUrl: "",
+    gitHubUrl: "https://github.com/prathyu116/StrawberrynetClone",
+    features: [
+      "Strawberrynet is a cosemetic item selling website build using HTML CSS JS NODEJS EXPRESS",
+      "There are two type of users, user and admin",
+      "admin can able to add product",
+      "Authantication is done using JWT tokens",
+      "A Group project completed with in 7 days.",
+    ],
+    techSTack: [html, jstech, express, mongo],
+  },
+
+  {
+    projectName: "Breaking-Bad-Cast",
+    projectDescription: "This is simple REACT project to showing the breaking bad TV show characters ",
+    imageUrl: brba,
+    projectUrl: "https://breaking--bad--characters.herokuapp.com/",
+    gitHubUrl: "https://github.com/prathyu116/Breaking_Bad_cast",
+    features: [
+      "This is simple REACT project to showing the breaking bad TV show characters",
+      "The data is getting from https://www.breakingbadapi.com/ named website",
+      "user can able to search a perticular character by name",
+      "responsive layout",
+
+      "A solo project completed with in 5 days.",
+    ],
+    techSTack: [html, css, react],
+  },
   // {
   //     projectName: 'OLX-clone',
   //     projectDescription:
@@ -123,15 +163,7 @@ export const projectsData = [
   //     projectUrl: 'https://react-todo--app--44.herokuapp.com/',
   //     gitHubUrl: 'https://github.com/prathyu116/React-Todo--App',
   // },
-  // {
-  //     projectName: 'Bookmyshaw Clone',
-  //     projectDescription:
-  //         'This is an simple bookmyshaw projects with REACT JS + TAILWIND CSS.',
-  //     imageUrl: book,
 
-  //     projectUrl: 'https://github.com/prathyu116/book-my-show-frontEnd',
-  //     gitHubUrl: 'https://github.com/prathyu116/book-my-show-frontEnd',
-  // },
   // {
   //     projectName: 'Portfolio Website',
   //     projectDescription:

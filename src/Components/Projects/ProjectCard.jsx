@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { Button, Modal } from "react-bootstrap";
+import { Alert, Button, Modal } from "react-bootstrap";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
@@ -12,10 +12,10 @@ function MyVerticallyCenteredModal(props) {
         <Modal.Title id="contained-modal-title-vcenter">{props.projectName}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-       
         <img src={props.imageUrl} alt="" className="modal-body-img" />
+        
         <div className="readmoreli">
-          <h2>Features</h2>
+          <h2>About Project</h2>
           <ul>
             {props.features.map((item) => (
               <li>{item}</li>
@@ -62,11 +62,23 @@ const ProjectCard = ({ projectName, projectDescription, imageUrl, projectUrl, gi
             <Button href={gitHubUrl} target="_blank" variant="outline-light" className="project-url2">
               <FaGithubSquare className="ic" />
             </Button>
-            <Button target="_blank" href={projectUrl} variant="outline-light" className="project-url2">
-              <FaExternalLinkAlt className="ic" />
-            </Button>
+            {projectUrl === "" ? (
+              <Button
+                onClick={() => {
+                  alert("NOT DEPLOYED🙂");
+                }}
+                variant="outline-light"
+                className="project-url2"
+              >
+                <FaExternalLinkAlt className="ic" />
+              </Button>
+            ) : (
+              <Button target="_blank" href={projectUrl} variant="outline-light" className="project-url2">
+                <FaExternalLinkAlt className="ic" />
+              </Button>
+            )}
           </div>
-          <div className="btn-reademore">
+          <div className="btn-reademore ">
             <Button variant="outline-success" onClick={() => setModalShow(true)}>
               Reade More
             </Button>

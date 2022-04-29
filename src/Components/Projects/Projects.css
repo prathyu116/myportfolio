@@ -65,6 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .btn-link {
   display: flex;
@@ -108,6 +109,7 @@
 
 .readmoreli {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 10px;
 }
 .readmoreli h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
