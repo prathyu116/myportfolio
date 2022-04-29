@@ -190,3 +190,12 @@
     font-size: 15px;
   }
 }
+@media (max-width: 640px) {
+  .home-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+    .home_anime {
+    width: 230px;
+  }
+}

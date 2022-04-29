@@ -43,7 +43,7 @@ function MyVerticallyCenteredModal(props) {
 const ProjectCard = ({ projectName, projectDescription, imageUrl, projectUrl, gitHubUrl, techStack, features }) => {
   const [modalShow, setModalShow] = React.useState(false);
   return (
-    <Tilt className="project-card">
+    <div className="project-card">
       <div className="image-container">
         <img src={imageUrl} alt="" className="project-image" />
       </div>
@@ -82,7 +82,7 @@ const ProjectCard = ({ projectName, projectDescription, imageUrl, projectUrl, gi
           </div>
         </div>
       </div>
-    </Tilt>
+    </div>
   );
 };
 
