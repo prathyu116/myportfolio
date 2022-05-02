@@ -47,7 +47,9 @@
   color: rgb(189, 189, 189);
   border: 1px solid #b0becf;
 }
-
+.vertical-timeline-element-title{
+  font-size: 20px;
+}
 
 .education{
   width: 100%;
