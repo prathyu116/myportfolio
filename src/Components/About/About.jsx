@@ -23,7 +23,7 @@ const About = () => {
       />
       <div className="home-btnn">
         <a
-          href="https://drive.google.com/file/d/1V0FF7Rfzay4OSD068FDcsLW-QFHpNvpH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qnphljSQxDOiQn0_U2eu22Dk2J8X_-j9/view?usp=sharing"
           target="_blank"
           className="btnn btn-white"
         >
