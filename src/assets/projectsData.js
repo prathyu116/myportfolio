@@ -20,6 +20,8 @@ import TYPE from "./type.gif"
 import mongo from "./mongo.png"
 import express from "./node.png"
 import brba from "./brba.gif"
+import yoox from "./yoox.gif"
+import redux from "./redux.png"
 
 export const projectsData = [
   //   {
@@ -43,7 +45,21 @@ export const projectsData = [
       "A solo project completed with in 2 days.",
       "responsive ui",
     ],
-    techSTack: [html, jstech, react],
+    techSTack: [html, css, react],
+  },
+  {
+    projectName: "YOOX  Clone",
+    projectDescription: "Cloned of YOOX Ecommerce web application that sell Desiner Clothing Products",
+    imageUrl: yoox,
+    projectUrl: "https://yoox-clone-react-six.vercel.app",
+    gitHubUrl: "https://github.com/Ritesh6997/YOOX_Clone_React",
+    features: [
+      "Front-end builded with react & Back-end builded using Nodejs+Express ,Mongodb",
+      "state is managed using Redux library",
+      "A group project completed with in 6 days.",
+      "responsive ui",
+    ],
+    techSTack: [html, react, redux, mongo, express],
   },
   {
     projectName: "Sudoku Game",
