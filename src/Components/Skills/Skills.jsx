@@ -29,7 +29,7 @@ const Skills = () => {
             );
           })}
         </div>
-        <FooterLink content="get in " link="get in touch" toaddress="/contact" />
+        <FooterLink content="get in " link="My Works" toaddress="/projects" />
         <div className="skill-vector-frame">
           <img src={skillVector} alt="skillVector" className="skillVector" />
         </div>

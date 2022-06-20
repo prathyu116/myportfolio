@@ -22,11 +22,7 @@ const About = () => {
             "
       />
       <div className="home-btnn">
-        <a
-          href="https://drive.google.com/file/d/1qnphljSQxDOiQn0_U2eu22Dk2J8X_-j9/view?usp=sharing"
-          target="_blank"
-          className="btnn btn-white"
-        >
+        <a href="https://drive.google.com/file/d/1xWTWGeQZ4BmeeiqQLcV9KVs_OlD3vZDp/view" target="_blank" className="btnn btn-white">
           <span className="btn-txt">My Resume</span>
         </a>
       </div>
@@ -83,7 +79,7 @@ const About = () => {
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
-      <FooterLink link="projects!" content="go to " toaddress="/projects" />
+      <FooterLink link="My Skills!" content="go to " toaddress="/skills" />
     </div>
   );
 };

@@ -27,11 +27,12 @@ import './Navbar.css'
               <Link to="/about" className={`menu-item ${aboutClass}`}>
                 About
               </Link>
-              <Link to="/projects" className={`menu-item ${projectClass}`}>
-                Projcts
-              </Link>
+
               <Link to="/skills" className={`menu-item ${skillClass}`}>
                 Skills
+              </Link>
+              <Link to="/projects" className={`menu-item ${projectClass}`}>
+                Projcts
               </Link>
 
               <Link to="/contact" className={`menu-item ${contactClass}`}>

@@ -30,8 +30,8 @@ const Projects = () => {
 
            </div>
            <FooterLink content='check out '
-           toaddress='/skills'
-           link='my skills'
+           toaddress='/contact'
+           link='get in touch🤘!'
            
            />
         </div>

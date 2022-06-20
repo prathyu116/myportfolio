@@ -22,16 +22,10 @@ import express from "./node.png"
 import brba from "./brba.gif"
 import yoox from "./yoox.gif"
 import redux from "./redux.png"
+import miniFB from "./miniFb.gif"
+import mUI from "./MUI.png"
 
 export const projectsData = [
-  //   {
-  //     projectName: "Name It!",
-  //     projectDescription: "This  name suggestion application help you find the best name for your next project,venture,or startup.!",
-  //     imageUrl: Project1,
-
-  //     projectUrl: "https://prathyu116.github.io/react-nameit-app/",
-  //     gitHubUrl: "https://github.com/prathyu116/Shopping-Cart",
-  //   },
   {
     projectName: "Netflix Clone",
     projectDescription: "This Netflix clone App build using React with TMDB API. Super cool!",
@@ -48,18 +42,20 @@ export const projectsData = [
     techSTack: [html, css, react],
   },
   {
-    projectName: "YOOX  Clone",
-    projectDescription: "Cloned of YOOX Ecommerce web application that sell Desiner Clothing Products",
-    imageUrl: yoox,
-    projectUrl: "https://yoox-clone-react-six.vercel.app",
-    gitHubUrl: "https://github.com/Ritesh6997/YOOX_Clone_React",
+    projectName: "Mini Social Media App",
+    projectDescription: "This mini social media app build with MERN stack",
+    imageUrl: miniFB,
+    projectUrl: "",
+    gitHubUrl: "https://github.com/prathyu116/minifb",
     features: [
-      "Front-end builded with react & Back-end builded using Nodejs+Express ,Mongodb",
-      "state is managed using Redux library",
-      "A group project completed with in 6 days.",
+      "user can view all the posts",
+      "user can edit and delete their own posts",
+      "like and dislike feature",
+      "A solo project completed with in 15 days.",
       "responsive ui",
+      `DEMO⭐ https://user-images.githubusercontent.com/67427506/174500602-70d03e02-3333-4a4d-bfd0-c35a240b17ca.mp4`,
     ],
-    techSTack: [html, react, redux, mongo, express],
+    techSTack: [mongo, express, react, redux, mUI],
   },
   {
     projectName: "Sudoku Game",
@@ -76,6 +72,22 @@ export const projectsData = [
     ],
     techSTack: [html, css, jstech],
   },
+
+  {
+    projectName: "YOOX  Clone",
+    projectDescription: "Cloned of YOOX Ecommerce web application that sell Desiner Clothing Products",
+    imageUrl: yoox,
+    projectUrl: "https://yoox-clone-react-six.vercel.app",
+    gitHubUrl: "https://github.com/Ritesh6997/YOOX_Clone_React",
+    features: [
+      "Front-end builded with react & Back-end builded using Nodejs+Express ,Mongodb",
+      "state is managed using Redux library",
+      "A group project completed with in 6 days.",
+      "responsive ui",
+    ],
+    techSTack: [html, react, redux, mongo, express],
+  },
+
   {
     projectName: "Flashtype-app",
     projectDescription: "This typing speed test application test your typing speed                    ",
