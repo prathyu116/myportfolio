@@ -22,7 +22,7 @@ const About = () => {
             "
       />
       <div className="home-btnn">
-        <a href="https://drive.google.com/file/d/1PLI9AhYRznogvzhxAtuepvg9AqDyCur-/view" target="_blank" className="btnn btn-white">
+        <a href="https://drive.google.com/file/d/1PLI9AhYRznogvzhxAtuepvg9AqDyCur-/view?usp=sharing" target="_blank" className="btnn btn-white">
           <span className="btn-txt">My Resume</span>
         </a>
       </div>
