@@ -8,10 +8,10 @@ import ReactGA from "react-ga"
 import "./Navbar.css";
 
 class Navbar extends Component {
-  componentDidMount() {
-  ReactGA.initialize("G-4B001WLZE6");
-  ReactGA.pageview(window.location.pathname + window.location.search);
-  }
+//   componentDidMount() {
+//   ReactGA.initialize("G-4B001WLZE6");
+//   ReactGA.pageview(window.location.pathname + window.location.search);
+//   }
   render() {
     const { location } = this.props;
     console.log(location.pathname);
