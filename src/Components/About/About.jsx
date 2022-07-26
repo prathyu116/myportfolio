@@ -48,7 +48,7 @@ const About = () => {
             className="vertical-timeline-element--work k"
             contentStyle={{ background: "rgb(19, 42, 62)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(240, 244, 248)" }}
-            date="Jan 2022 - present"
+            date="Jan 2022 - July 4"
             iconStyle={{ background: "rgb(5, 92, 67)", color: "#fff" }}
             icon={<FaGraduationCap />}
           >
