@@ -61,11 +61,11 @@ const Home = () => {
                   </a>
                 </li>
 
-                <li>
+{/*                 <li>
                   <a class="instagram" aria-label="Instagram" href="">
                     <i class="fab fa-instagram" target="_blank"></i>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
