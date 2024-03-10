@@ -2,7 +2,6 @@ import React, {  } from 'react'
 import {Link} from 'react-router-dom'
 import home_anime from './../../assets/home_anime.gif'
 import Particles from 'react-tsparticles'
-// import Modal from '../Modal/Modal'
 import  ParticleConfigs from "../config/particle.configs"
 import AboutAnime from "./../../assets/about_anime.gif";
 import Typewriter  from "typewriter-effect"
